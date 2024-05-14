@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrap">
+        <fieldset>
+            <form>
+                <h1>Job Application Form</h1>
+                <div class="intro">
+                    Thank you for your interest in working with us. Please chexk below for available job opportunities that meet your criteria and send your application by filling out the job Application Form.
+                </div>
+                <br>
+                <div class="name">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="name" id="name" placeholder="First">&nbsp;&nbsp;&nbsp;<input type="name" id="name" placeholder="Last">
+                </div>
+                <br>
+                <div class="email">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" id="email" placeholder="john.doe@example.com">
+                </div>
+                <br>
+                <div class="position">
+                    <label type="position">
+                        What position are you applying for?
+                    </label>
+                    <br>
+                    <select name="position" id="position">
+                        <option value="butler">butler</option>
+                        <option value="labour">labour</option>
+                        <option value="mason">mason</option>
+                    </select>
+                </div>
+                <br>
+                <div class="date">
+                    <label for="date">Available Date</label>
+                    <br>
+                    <input type="date">
+                </div>
+                <br>
+                <div class="status">
+                    <label for="stauts">What is your current status?</label>
+                    <br>
+                    <input type="radio" name="status">Employed<input type="radio" name="status">Self-Employed<input type="radio" name="status">Unemployed<input type="radio" name="status">Student
+                </div>
+                <br>
+                <div class="reset">
+                    <input type="reset"><input type="submit">
+                </div>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
