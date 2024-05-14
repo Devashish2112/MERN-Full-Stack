@@ -1,0 +1,25 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+
+    background-color: black;
+    color: yellow;
+}
+h3{
+    color: hsl(56, 90%, 30%)
+}
+p{
+    border: dotted;
+}
+.chor{
+    background-color: pink;
+}
+.dj{
+    padding: 2%;
+    margin-left:10% ;
+    font-size: 450%;
+    font-style: oblique;
+    background-color: purple;
+    border-radius: 40%;
+}

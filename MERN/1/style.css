@@ -1,0 +1,6 @@
+body{
+    background-color: chocolate;
+}
+table, tr, th,td{
+    border: 2px solid black;
+}

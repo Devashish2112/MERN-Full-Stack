@@ -1,0 +1,9 @@
+body{
+    background-color: aquamarine;
+}
+form label{
+    border: 2px solid black;
+}
+form input{
+    border: 2px solid black;
+}
