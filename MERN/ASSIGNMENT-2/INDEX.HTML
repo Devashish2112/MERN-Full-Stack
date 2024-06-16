@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="STYLE3.CSS">
+    <link rel="stylesheet" href="STYLE2.CSS">
+    <link rel="stylesheet" href="STYLE1.CSS">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(2, 2, 37);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img width="400" height="500" src="Profile.jpg" alt=" My Photo">
+            <p>
+                Hello. My name is <span class="purple">DEVASHISH RAMOLA</span>.
+                I am a Student and a Web Developer.
+            </p>
+        </section>
+
+        <section id="Projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project One</h3>
+                <img src="project1.png" alt="Project One">
+                <p>A sample form to check the basic knowledge of HTML and CSS which asks the user about his/ her personal information.</p>
+            </div>
+            <div class="project">
+                <h3>Project Two</h3>
+                <img src="project2.png" alt="Project Two">
+                <p>A sample form of job application which verifies the knowlegde pf HTML and CSS.</p>
+            </div>
+        </section>
+
+        <section id="Contact">
+            <h2>Contact</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 <span class="purple">DEVASHISH RAMOLA</span>. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

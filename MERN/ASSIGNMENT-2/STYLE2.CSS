@@ -1,0 +1,16 @@
+.project {
+    margin: 20px 0;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+.purple{
+    color: blueviolet;
+}
+footer{
+    text-align: center;
+    background-color: rgb(5, 5, 22);
+    padding: 10px 0;
+}

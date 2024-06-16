@@ -1,0 +1,13 @@
+section{
+    margin: 20px 0;
+    padding: 20px;
+}
+section h2{
+    margin: 20px 0;
+}
+section img{
+    margin: 10px 0;
+}
+.purple{
+    color: blueviolet;
+}
